@@ -1,0 +1,36 @@
+<marquee class="text-bg-light text-danger fw-bold">Mandatory Profile password change after 365 days introduced for added security.   |   Customers who have installed “SBI Secure OTP App” on their mobile and completed registration process will now receive Login OTP for OnlineSBI.com on the app instead of SMS OTP   |   Call us toll free on 1800 1234 and 1800 2100 and get a wide range of services through SBI Contact Centre   |   For added security, new functionality to maintain per day and per transaction limit for general merchant payment transactions has been implemented. Please visit Define Limit under profile section.   |   SBI never asks for your Card/PIN/OTP/CVV details on phone, message or email. Please do not click on links received on your email or mobile asking your Bank/Card details.</marquee>
+
+<form >
+<h1>{{data}}</h1>
+    <div style="background-color: rgb(255, 255, 255); "  class="d-flex justify-content-center">
+        <div id="maindiv " style="height: 460px; background-color: 	#36657acc; border-radius: 3%;" class="text-center p-5 m-3 border col-lg-4 col-md-4 col-sm-4">
+            <!-- <h1 style="color: white;">Sign In</h1> -->
+            <div>
+              <img style="width: 50%;" class="img-fluid my-auto " src="https://i.postimg.cc/Rh63Jx4W/online-banking-finance-icon-white-bank-building-3d212784a06f770e32f3aaadbe4f2259.png" alt="">
+            </div>
+                <div class="mt-4 p-2">
+                    <input (change)="accnoChange($event)" id="ac" class="form-control w-75 container" name="accno" type="text" [placeholder]="pdata">
+                </div>
+                <div class="mt-2 p-2 d-flex align-items-center pass">
+                    <input (change)="passDisplay($event)" id="password" name="password" class="form-control w-75 container" type="password" placeholder="Password">
+
+                </div>
+                <div class="mt-2 p-2">
+                    <button type="submit" (click)="login()" id="logbt" name="loginbtn" style="background-color: 	#bbbbbb;" class=" btn1 w-50">LogIn</button>
+                </div>
+
+                <div class="mt-2 p-2">
+                  <p class="text-white" >Dosen't have an account? <a href="#" style="color: rgb(255, 255, 255);" class="text-decoration-none fw-bold">Create account</a></p>
+
+                </div>
+        </div>
+
+    </div>
+
+
+
+</form>
+
+<script>
+
+</script>

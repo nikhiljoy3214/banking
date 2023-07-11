@@ -1,0 +1,24 @@
+button{
+  font-size: 100%;
+  font-weight: bold;
+  margin: 10px;
+  /* width: 20%; */
+  border: 1px solid black;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  transition: all 0.5s ease-out;
+}
+
+button:hover{
+  color: rgb(0, 0, 0);
+}
+
+.btn1{
+  background: linear-gradient(to right, #acb3b4a8 50%,#FFF 50%);
+  background-size: 200% 100%;
+  background-position: right;
+}
+
+.btn1:hover{
+  background-position: left;
+}
